@@ -1,0 +1,48 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    border: blue solid 5px;
+    margin-bottom: 30px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+    border:silver solid 5px;
+    border-radius: 15px;
+    margin: 20px;
+    background: white;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.product-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: blue solid 5px;
+    border-radius: 15px;
+    background: cyan;
+        text-align: center;
+}
+
+.product-title{
+    font-size: 30px;
+}
