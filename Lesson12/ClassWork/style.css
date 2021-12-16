@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.post {
+    width: 30%;
+    border: aquamarine solid 3px;
+    text-align: center;
+}
+
+.comment{
+    width: 90%;
+    padding-left: 10px;
+    border: aquamarine solid 3px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 15px;
+}
+
+h3{
+    padding-top: 20px;
+}
